@@ -35,9 +35,9 @@ def get_filters():
 
      # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day_filter = input('Would you like to filter by the day of the week? Enter yes or no.\n').lower().strip()
+        day_filter = input('Would you like to filter by the day of the week? Enter yes or no.\n').lower()
         if day_filter == 'yes':
-            day = input('Which day? Please type the full name of the day.\n').lower().strip()
+            day = input('Which day? Please type the full name of the day.\n').lower()
             break
         elif day_filter == 'no':
             day = 'all'
