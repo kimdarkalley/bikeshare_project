@@ -1,5 +1,5 @@
 ### Date created
-This project was created and uploaded July 2021
+This project was created June 2021 and uploaded July 2021
 
 ### Project Title
 Exploration of Bikeshare data using python
@@ -7,7 +7,7 @@ Exploration of Bikeshare data using python
 ## Description
 This project satisfies the requirements of the Udacity Programming for Data Science with Python Nanodegree Program which includes python and git for version control.
 
-The program included utilizes user inputs on a terminal to run a simple analysis on bikeshare data from three US cities: Washington, Chicago, and New York City.
+The program included utilizes user inputs on a terminal to run a simple analysis on the provided bikeshare data from three US cities: Washington, Chicago, and New York City.
 
 The user is able to filter the data by city, month, and day if they desire.  
 The results returned by the program include:
