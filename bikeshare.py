@@ -23,9 +23,9 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month_filter = input('Would you like to filter the data by month? Enter yes or no.\n').lower().strip()
+        month_filter = input('Would you like to filter the data by month? Enter yes or no.\n').lower()
         if month_filter == 'yes':
-            month = input('Which month? January, February, March, April, May, June?\n').lower().strip()
+            month = input('Which month? January, February, March, April, May, June?\n').lower()
             break
         elif month_filter == 'no':
             month = 'all'
