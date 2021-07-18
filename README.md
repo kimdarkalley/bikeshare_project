@@ -1,17 +1,34 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+This project was created and uploaded July 2021
 
 ### Project Title
-Replace the Project Title
+Exploration of Bikeshare data using python
 
-### Description
-Describe what your project is about and what it does
+## Description
+This project satisfies the requirements of the Udacity Programming for Data Science with Python Nanodegree Program which includes python and git for version control.
+
+The program included utilizes user inputs on a terminal to run a simple analysis on bikeshare data from three US cities: Washington, Chicago, and New York City.
+
+The user is able to filter the data by city, month, and day if they desire.  
+The results returned by the program include:
+most popular month
+most popular day
+most popular hour
+most popular start and end stations
+most popular route
+average trip duration
+type of user
+number by gender (not available for all cities)
+oldest and youngest user (not available for all cities)
+the ability to choose how much raw data to view
+the ability to restart the program
 
 ### Files used
-Include the files used
+The program utilizes python, pandas, and numpy.
+The bikeshare csv files were provided by Udacity.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The following resources were used to create the program and documentation for this project:
+Udacity program https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
+README file ideas https://www.makeareadme.com
+pandas documentation https://pandas.pydata.org/docs/
